@@ -1,0 +1,17 @@
+setVisible(true);
+		setSize(800, 600);
+		setLayout(new FlowLayout());
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		
+			JLabel level = new JLabel ("Smart HF Creator");
+		add(level);
+		
+		this.setTitle(header);
+		
+			Color c = new Color (34,56,78);
+		this.setForeground(c);
+		
+		back.setEnabled(false);
+		
+		arg2.setBounds(90, 30, 30, 15);
